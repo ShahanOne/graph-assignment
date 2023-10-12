@@ -9,7 +9,7 @@ function App() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh', // Center vertically on the screen
+    height: '90vh', // Center vertically on the screen
   };
   return (
     <div className="App bg-white h-screen ">

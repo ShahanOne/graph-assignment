@@ -27,7 +27,7 @@ const Graph = () => {
 
   // If data is still loading, show a loading message
   if (!graphData) {
-    return <div>Loading...</div>;
+    return <div className='animate-pulse text-[#377aff] p-8'>Loading...</div>;
   }
 
   // Extract the years and burglary data for the graph

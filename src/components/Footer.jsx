@@ -8,7 +8,7 @@ const Footer = () => {
           Report Genereted on September 26, 2023
         </p>
         <p className="font-bold pt-2 text-sm">
-          RealAssist Property Report | Page 1 of 25
+          RealAssist Property Report | Page 1 <span className='text-[#626E99]'>of 25</span> 
         </p>
       </div>
     </div>

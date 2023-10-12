@@ -27,7 +27,7 @@ const Graph = () => {
 
   // If data is still loading, show a loading message
   if (!graphData) {
-    return <div className='animate-pulse text-[#377aff] p-8'>Loading...</div>;
+    return <div className="animate-pulse text-[#377aff] p-8">Loading...</div>;
   }
 
   // Extract the years and burglary data for the graph
@@ -63,6 +63,7 @@ const Graph = () => {
         display: false, // Hide the legend
       },
     },
+    responsive: true, // Make the chart responsive
   };
 
   return (
@@ -93,6 +94,7 @@ const Graph = () => {
                   label: 'Burglary',
                   data: burglaryData,
                   borderColor: '#1463FF',
+                  backgroundColor: '#1463FF',
                   borderWidth: 2,
                 },
               ],
